@@ -1,0 +1,116 @@
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 19px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+/*The name is located*/
+.navbar-brand h1{
+  font-family: "Arial Black", Gadget, sans-serif;
+  color: #ff0000;
+  margin-top: 15px;
+  text-shadow: 1px 1px 1px #222;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.container {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section {
+  font-family: "Lucida Console", Monaco, monospace;
+  color: "Lucida Console", Monaco, monospace;
+  position: relative;
+  overflow: auto;
+  border: 1px solid black;
+  background-color:  #e0e0d1;
+  width: 100%;
+  height: auto;
+}
+
+.menu-name{
+Color:#003300;
+background-color:  #ccccb3;
+font-family: Impact, Charcoal, sans-serif;
+}
+
+#chicken {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#beef {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#sushi {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.navbar-brand {
+  font-size: 2em;
+  border: 0 0 10px 10px;
+  color: #FFFFFF;
+}
+
+#header-nav {
+  border: 0;
+  background-color: #00ccff;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid #660033;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+/*Items in toggle*/
+#nav-list {
+  margin-top: 15px;
+}
+#nav-list a {
+  color:  #b3b300;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #ffccff;
+}
+#nav-list a span {
+  font-size: 2em;
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+
+
+  /********** Super extra small devices Only **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  /* End Header */  
+}
